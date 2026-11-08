@@ -1,9 +1,9 @@
-# معماری کامپیوتر پیشرفته (Advanced Computer Architecture)
+### معماری کامپیوتر پیشرفته (Advanced Computer Architecture)
 
-### جزوه‌ی **معماری کامپیوتر پیشرفته** — کارشناسی ارشد معماری کامپیوتر، دانشگاه تربیت مدرس (نیم‌سال اول ۱۴۰۵-۱۴۰۶).
+##### جزوه‌ی **معماری کامپیوتر پیشرفته** — کارشناسی ارشد معماری کامپیوتر، دانشگاه تربیت مدرس (نیم‌سال اول ۱۴۰۵-۱۴۰۶).
 ---
 
-## 📚 فهرست بخش‌ها
+### فهرست بخش‌ها
 
 | # | بخش | منبع | وضعیت |
 |---|---|---|---|
@@ -19,7 +19,7 @@
 | ۱۰ | موازی‌سازی سطح نخ: چندپردازنده‌ای، انسجام کش، همگام‌سازی، سازگاری حافظه و WSC | CAQA 5–6 | ⏳ |
 
 
-## 📖 منابع
+### منابع
 
 - **COD:** D. A. Patterson, J. L. Hennessy, *Computer Organization and Design: The Hardware/Software Interface*, 5th ed., Morgan Kaufmann.
 - **CAQA:** J. L. Hennessy, D. A. Patterson, *Computer Architecture: A Quantitative Approach*, 5th and 6th eds., Morgan Kaufmann.
