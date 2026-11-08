@@ -423,7 +423,7 @@ GM(SPECRatio_A) / GM(SPECRatio_B) = GM( Time_B,i / Time_A,i )
 
 **عیب میانگین هندسی:** با «زمان کل اجرا» متناسب نیست. پس پیش‌بینی نمی‌کند که اجرای کل مجموعه روی یک ماشین واقعاً چقدر طول می‌کشد.
 
-> سؤال‌های قبلی کلاس درباره‌ی Debug/Release و بنچمارک گوشی‌ها هم کاربرد مستقیم همین بخش بودند: [تحقیق کامل](../assignments/01-debug-release-and-smartphone-benchmarks.md).
+> سؤال‌های کلاس درباره‌ی تفاوت Debug و Release و بنچمارک گوشی‌های هوشمند هم کاربرد مستقیم همین بخش هستند.
 
 ---
 
@@ -602,12 +602,29 @@ sudo apt install linux-tools-common linux-tools-$(uname -r)
 # اگر خطای دسترسی داد:
 sudo sysctl kernel.perf_event_paranoid=1
 
-# یک برنامه‌ی ساده را با دو سطح بهینه‌سازی بساز (کد در فایل تحقیق جلسه‌ی اول)
+# برنامه‌ی ساده‌ی sum.c (پایین) را با دو سطح بهینه‌سازی بساز
 gcc -O0 -o prog_O0 sum.c
 gcc -O2 -o prog_O2 sum.c
 
 perf stat -e instructions,cycles,task-clock ./prog_O0
 perf stat -e instructions,cycles,task-clock ./prog_O2
+```
+
+فایل `sum.c`:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#define N 10000000
+int sum(const int *a, int n) { int s = 0; for (int i = 0; i < n; i++) s += a[i]; return s; }
+int main(void) {
+    int *a = malloc(N * sizeof(int));
+    for (int i = 0; i < N; i++) a[i] = i & 7;
+    long long tot = 0;
+    for (int r = 0; r < 100; r++) tot += sum(a, N);
+    printf("%lld\n", tot);
+    return 0;
+}
 ```
 
 خروجی `perf stat` این‌ها را می‌دهد:
