@@ -12,7 +12,7 @@
 | ۳ | [محاسبات کامپیوتری: ALU، جمع‌کننده‌ی Carry-lookahead، ضرب Booth، تقسیم، IEEE 754](lessons/03-computer-arithmetic/) | COD 4 | ✅ |
 | ۴ | [مسیر داده و کنترل تک‌سیکلی و چندسیکلی؛ اضافه کردن دستور جدید](lessons/04-datapath-and-control/) | COD 5 | ✅ |
 | ۵ | [خط لوله: مخاطرات (Hazards)، Forwarding، Stall و پیش‌بینی پرش ساده](lessons/05-pipelining/) | COD 6 | ✅ |
-| ۶ | سلسله‌مراتب حافظه: کش، حافظه‌ی مجازی، TLB و بهینه‌سازی‌های پیشرفته | COD 7، CAQA 2 | ⏳ |
+| ۶ | [سلسله‌مراتب حافظه: کش، حافظه‌ی مجازی، TLB و بهینه‌سازی‌های پیشرفته](lessons/06-memory-hierarchy/) | COD 7، CAQA 2 | ✅ |
 | ۷ | ILP ایستا: زمان‌بندی کد، باز کردن حلقه، پیش‌بینی پرش و BTB | Adv. Topics، CAQA 3 | ⏳ |
 | ۸ | ILP پویا: الگوریتم تامسولو، اجرای حدسی (ROB) و صدور چنددستوری | Adv. Topics، CAQA 3 | ⏳ |
 | ۹ | موازی‌سازی سطح داده: معماری برداری (VMIPS/RV64V)، SIMD و GPU | CAQA 4 | ⏳ |
