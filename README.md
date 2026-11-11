@@ -15,7 +15,7 @@
 | ۶ | [سلسله‌مراتب حافظه: کش، حافظه‌ی مجازی، TLB و بهینه‌سازی‌های پیشرفته](lessons/06-memory-hierarchy/) | COD 7، CAQA 2 | ✅ |
 | ۷ | [ILP ایستا: زمان‌بندی کد، باز کردن حلقه، پیش‌بینی پرش و BTB](lessons/07-static-ilp/) | Adv. Topics، CAQA 3 | ✅ |
 | ۸ | [ILP پویا: الگوریتم تامسولو، اجرای حدسی (ROB) و صدور چنددستوری](lessons/08-dynamic-ilp/) | Adv. Topics، CAQA 3 | ✅ |
-| ۹ | موازی‌سازی سطح داده: معماری برداری (VMIPS/RV64V)، SIMD و GPU | CAQA 4 | ⏳ |
+| ۹ | [موازی‌سازی سطح داده: معماری برداری (VMIPS/RV64V)، SIMD و GPU](lessons/09-data-level-parallelism/) | CAQA 4 | ✅ |
 | ۱۰ | موازی‌سازی سطح نخ: چندپردازنده‌ای، انسجام کش، همگام‌سازی، سازگاری حافظه و WSC | CAQA 5–6 | ⏳ |
 
 
