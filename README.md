@@ -16,7 +16,7 @@
 | ۷ | [ILP ایستا: زمان‌بندی کد، باز کردن حلقه، پیش‌بینی پرش و BTB](lessons/07-static-ilp/) | Adv. Topics، CAQA 3 | ✅ |
 | ۸ | [ILP پویا: الگوریتم تامسولو، اجرای حدسی (ROB) و صدور چنددستوری](lessons/08-dynamic-ilp/) | Adv. Topics، CAQA 3 | ✅ |
 | ۹ | [موازی‌سازی سطح داده: معماری برداری (VMIPS/RV64V)، SIMD و GPU](lessons/09-data-level-parallelism/) | CAQA 4 | ✅ |
-| ۱۰ | موازی‌سازی سطح نخ: چندپردازنده‌ای، انسجام کش، همگام‌سازی، سازگاری حافظه و WSC | CAQA 5–6 | ⏳ |
+| ۱۰ | [موازی‌سازی سطح نخ: چندپردازنده‌ای، انسجام کش، همگام‌سازی، سازگاری حافظه و WSC](lessons/10-thread-level-parallelism/) | CAQA 5–6 | ✅ |
 
 
 ### منابع
